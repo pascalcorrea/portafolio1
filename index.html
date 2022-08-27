@@ -9,44 +9,77 @@
     <link rel="stylesheet" href="/VisualStudioCode/UDD/portafolio1/assets/css/breakpoints.css">
 </head>
 <body>
-    <main>
 
+  <main>
 
+    <nav class="navbar bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Melody Romero</a>
+      </div>
+    </nav>
 
-        <nav>
-    
-          <ul>
-    
-            <li><a href="/VisualStudioCode/UDD/portafolio1/proyectos/floreria/index.html">Florería</a></li>
-    
-            <li><a href="/VisualStudioCode/UDD/portafolio1/proyectos/cine/index.html">Cine</a></li>
-    
-            <li><a href="/VisualStudioCode/UDD/portafolio1/proyectos/hamburgeseria/">Hamburguesería</a></li>
-    
+    <!-- As a heading -->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Portafolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/VisualStudioCode/UDD/portafolio1/proyectos/floreria/index.html">Florería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/VisualStudioCode/UDD/portafolio1/proyectos/cine/index.html">Cine</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="/VisualStudioCode/UDD/portafolio1/proyectos/hamburgeseria/">Hamburguesería</a>
+            </li>
           </ul>
-    
-        </nav>
-    
-    
-    
-        <section>
-    
-          <h2>Contacto</h2>
-    
-        </section>
-    
-    
-    
-    </main>
-    
-    
-    
-      <aside>
-    
-        <h4>Anuncios</h4>
-    
-      </aside>
+        </div>
+      </div>
+    </nav>
 
+    <nav>
+      <ul>
+        <li><a href="proyectos/floreria/index.html">Florería</a></li>
+        <li><a href="proyectos/cine/index.html">Cine</a></li>
+        <li><a href="proyectos/hamburgeseria/index.html">Hamburguesería</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1 class="titulo-rojo">Portafolio Melody Romero, Desarrollador Fullstack</h1>
+    </header>
+
+    <section>
+
+      <h3>Tipos de contenedor</h3>
+      <div class="container-sm">100% wide until small breakpoint</div>
+      <div class="container-md">100% wide until medium breakpoint</div>
+      <div class="container-lg">100% wide until large breakpoint</div>
+      <div class="container-xl">100% wide until extra large breakpoint</div>
+      <div class="container-xxl">100% wide until extra extra large breakpoint</div>
+
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+    </section>
+
+  </main>
+
+  <aside>
+    <h4>Anuncios</h4>
+  </aside>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
